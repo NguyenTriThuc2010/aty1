@@ -561,7 +561,7 @@ Options.HitCountSlider:OnChanged(function()
     HitCount = Options.HitCountSlider.Value
 end)
 
-local SCRIPT_URL = "https://raw.githubusercontent.com/NguyenTriThuc2010/aty1/main/main.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/NguyenTriThuc2010/aty1/main/loader.lua"
 
 MiscBox:AddToggle("AutoExecToggle", { Text = "Auto Exec on Rejoin", Default = false })
 Toggles.AutoExecToggle:OnChanged(function()
